@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "space_images",
+  "info": {
+    "singularName": "space-image",
+    "pluralName": "space-images",
+    "displayName": "spaceImage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "space_Id": {
+      "type": "uid"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "status": {
+      "type": "boolean"
+    }
+  }
+}

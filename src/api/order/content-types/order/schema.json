@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_Id": {
+      "type": "uid"
+    },
+    "space_Id": {
+      "type": "uid"
+    },
+    "booking_Id": {
+      "type": "uid"
+    },
+    "Amount": {
+      "type": "float"
+    },
+    "tax": {
+      "type": "decimal"
+    },
+    "totalAmount": {
+      "type": "float"
+    }
+  }
+}

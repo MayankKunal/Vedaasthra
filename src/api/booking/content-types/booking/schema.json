@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "singularName": "booking",
+    "pluralName": "bookings",
+    "displayName": "Booking",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "space_Id": {
+      "type": "uid"
+    },
+    "name": {
+      "type": "string"
+    },
+    "vehical": {
+      "type": "string"
+    },
+    "parkingArea": {
+      "type": "string"
+    },
+    "spot": {
+      "type": "string"
+    },
+    "phoneNo": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "startTime": {
+      "type": "time"
+    },
+    "endTime": {
+      "type": "time"
+    },
+    "status": {
+      "type": "integer"
+    },
+    "duration": {
+      "type": "string"
+    }
+  }
+}
